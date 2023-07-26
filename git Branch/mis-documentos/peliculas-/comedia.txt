@@ -7,3 +7,7 @@ peli 3
 peli 4
 peli 4
 peli 5
+peli 1 pedida de urgencia luego del commit 
+peli 2 pedida de urgencia luego del commit 
+peli 3 pedida de urgencia luego del commit 
+peli 4 pedida de urgencia luego del commit 
