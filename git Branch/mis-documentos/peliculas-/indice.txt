@@ -1,0 +1,5 @@
+1_ accion 
+2_ comedia 
+3_ romanticas
+4_ terror 
+5_ romanticasPrueba2

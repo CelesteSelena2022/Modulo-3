@@ -13,3 +13,4 @@ peli 3 pedida de urgencia luego del commit
 peli 4 pedida de urgencia luego del commit 
 archivo 1 de prueba 2
 archivo 2 de prueba 2
+1 peli mas por categoria
