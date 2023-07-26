@@ -5,3 +5,8 @@ seria de comedia 2
 seria de comedia 3
 seria de comedia 4
 seria de comedia 5
+seria de animacion 1
+seria de animacion 2
+seria de animacion 3
+seria de animacion 4
+seria de animacion 5
