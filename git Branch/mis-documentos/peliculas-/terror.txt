@@ -1,5 +1,0 @@
-peli 1 
-peli 2
-peli 3
-1 peli mas por categoria
-peli agregada luego de eliminar demas archivos
