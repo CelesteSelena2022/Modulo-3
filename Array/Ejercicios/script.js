@@ -232,8 +232,37 @@
 // jugarPiedraPapelTijeras(jugadoraA, jugadoraB, jugadasA, jugadasB)---------------------------------------
 // Crear una función jugarPiedraPapelTijeras que tome como argumentos dos strings jugadoraA y jugadoraB con los nombres de cada jugadora respectivamente, y dos arrays de strings jugadasA y jugadasB con jugadas de Piedra, Papel o Tijera, de la misma longitud. La función debe devolver un string con el nombre de la ganadora o Empate en caso de que no haya ninguna. Para eso, debe comparar las mismas posiciones de cada array de jugadas, y sumar puntos a la jugadora correspondiente.
 
+// const jugarPiedraPapelTijeras = (jugadoraA, jugadoraB, jugadasA, jugadasB) => {
+//     let puntosA = 0;
+//     let puntosB = 0;
+//   // Recorrer las jugadas de ambas jugadoras y comparar las jugadas en cada posición
+//     for (let i = 0; i < jugadasA.length; i++) {
+//     const jugadaA = jugadasA[i];
+//     const jugadaB = jugadasB[i];
+//     if (jugadaA === jugadaB) {
+//         return `Empate`;
+//     } else if (
+//         (jugadaA === 'piedra' && jugadaB === 'tijera') ||
+//         (jugadaA === 'tijera' && jugadaB === 'papel') ||
+//         (jugadaA === 'papel' && jugadaB === 'piedra')
+//     ) {
+//       // Jugadora A gana la ronda, sumar un punto
+//         puntosA++;
+//     } else {
+//       // Jugadora B gana la ronda, sumar un punto
+//         puntosB++;
+//     }
+//     }
+//   // Comparar los puntos de ambas jugadoras al final para determinar la ganadora o si hay empate
+//     if (puntosA > puntosB) {
+//     return jugadoraA;
+//     } else { (puntosB > puntosA) 
+//     return jugadoraB;
+//     }
+// }
+
+// console.log(jugarPiedraPapelTijeras('Ada', 'Grace', ['tijera'], ['piedra'])) // Grace
+// console.log(jugarPiedraPapelTijeras('Ada', 'Grace', ['papel'], ['papel'])) // Empate
+// console.log(jugarPiedraPapelTijeras('Ada','Grace', ['piedra', 'papel', 'papel', 'piedra', 'tijera'], ['papel', 'piedra', 'tijera', 'tijera', 'papel'])) // Ada
 
 
-console.log(jugarPiedraPapelTijeras('Ada', 'Grace', ['tijera'], ['piedra'])) // Grace
-console.log(jugarPiedraPapelTijeras('Ada', 'Grace', ['papel'], ['papel'])) // Empate
-console.log(jugarPiedraPapelTijeras('Ada','Grace', ['piedra', 'papel', 'papel', 'piedra', 'tijera'], ['papel', 'piedra', 'tijera', 'tijera', 'papel'])) // Ada
